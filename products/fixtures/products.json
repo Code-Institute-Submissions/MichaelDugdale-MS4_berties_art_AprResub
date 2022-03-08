@@ -1,0 +1,212 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123456",
+            "name": "Girl in desert",
+            "description": "The girl in the desert was photographed by Pieter Stelling and the picture was taken in Namibia. It relfects the tranquility of the desert and at the same time the inner peace of the man. The girl is meditating with her toughts blowing with the wind.",
+            "price": 19.95,
+            "category": 1,
+            "image": "girl_in_desert.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/girl_in_desert.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123457",
+            "name": "Abstract no. 092",
+            "description": "The print is painted by Cottonbro. Abstract shapes and lines on a blue background. This print adds a slightly chaos and and the same time peaceful feeling to your interior, without being overpowering. The blue tones make the print perfect for the living room where the print is a remarkable item.",
+            "price": 23.95,
+            "category": 3,
+            "image": "abstract092.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/abstract092.jpg",
+            "in_stock": "False"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123458",
+            "name": "On Top Of The Mountain",
+            "description": "On top of the mountain was photographed by Tomas Malik and the picture was taken in Canada. The print stands for tranquility and clean nature. It is good to reflect on the beauty of nature and all its wonders.",
+            "price": 17.95,
+            "category": 2,
+            "image": "on_top_of_the_mountain.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/on_top_of_the_mountain.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123459",
+            "name": "Antelope",
+            "description": "This picture of the Antelope Canyon in America is taken by Paul Ijsendoorn. The Lower Antelope Canyon  is an impressive environment full of special structures, rocks in beautiful colors and narrow passages await. The canyon are narrow gorges that have been carved out by water or mud as a result of which it has taken on special forms.",
+            "price": 19.95,
+            "category": 2,
+            "image": "antelope-canyon.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/antelope-canyon.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123460",
+            "name": "Abstract No. 093",
+            "description": "This print is made by Rok Rie. The abstract print is a reflection of natural stone that is powerful due to water. The colorus are a combination of light and warm with a hint of dark tones. The surfaces look like liquid that flows over the paint. It gives a luxurious and modern look that matches well with a modern home.",
+            "price": 23.95,
+            "category": 3,
+            "image": "marmer.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/marmer.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123461",
+            "name": "Man In Colour",
+            "description": "The man in colour is photographed by Anderson Guerra. The picture is taken in Colombia on a little square in the the town centre. The photo radiates a lot of joy with the many colors used. This also symbolizes diversity at the same time. The is a piece of culture that the woman radiates (also with her eyes).",
+            "price": 17.95,
+            "category": 4,
+            "image": "man_in_colour.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/man_in_colour.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123462",
+            "name": "Say Hi",
+            "description": "This photo is taken by John Selmik. The woman with the sunglasses exudes a lot of passion in different ways. Partly revels partly penetrating the girl looks at you. It is intimidating and at the same time sensitive and warm. It is a striking item that draws attention in the living room.",
+            "price": 17.95,
+            "category": 1,
+            "image": "sunglasses.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/sunglasses.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123463",
+            "name": "Lips",
+            "description": "Lips is photographed by Arantxa Treva in Colombia. it is an expression of the hippie era where flower power is central. It is a female figure who has a voice. And she lets you hear this.",
+            "price": 17.95,
+            "category": 4,
+            "image": "lips.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/lips.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123464",
+            "name": "Trees And Bird",
+            "description": "This photo is taken by Efdal in Canada. The photo was taken in a natural park close to Montreal. It is a soothing semi still life photo. The trees form a rough horizontal line. The sun shines naturally on the trees which gives a magical effect. The birds in the middle complete the photo and give it dynamism.",
+            "price": 19.95,
+            "category": 2,
+            "image": "trees_and_bird.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/trees_and_bird.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123465",
+            "name": "White Lines",
+            "description": "White lines is made by Steve Johnson. The white lines form a calm and at the same time dynamic image. The lines are coarse and rough, which gives the painting character. Because the painting is completely white, it gives a calm appearance. The painting fits well in a modern interior.",
+            "price": 23.95,
+            "category": 3,
+            "image": "white.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/white.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123466",
+            "name": "Tunnel Vision",
+            "description": "Tunnel Vision is photographed by Will Mu. The photo was taken in the Netherlands near Amsterdam. The tunnel is painted inside in black and white, which gives it an industrial look. The black shapes resemble Kieth Haring figures, which also makes the tunnel playful.",
+            "price": 19.95,
+            "category": 4,
+            "image": "tunnel.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/tunnel.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123467",
+            "name": "River Through The Mountain",
+            "description": "This photo is taken by Pixabay. The photo was taken in a nature reserve in Eastern. The river flows with the mountains. The water in the river comes from the rain that comes from the mountain. The aerial photo reaches far so that a large piece of landscape can be seen.",
+            "price": 23.95,
+            "category": 2,
+            "image": "rivers.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/rivers.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123468",
+            "name": "Big Building",
+            "description": "This photo is taken by Philipps Birmes. The photo was taken in New York. The photo was taken from below, making the building float in the air. The photo has a sleek look that fits well with a sleek interior.",
+            "price": 17.95,
+            "category": 1,
+            "image": "building.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/building.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123469",
+            "name": "Red Dot",
+            "description": "Red dot is made by Steven Johnson. The painting roughly consists of the two primary colors blue and red. This gives a great contrast, so that both colors are well present. What is striking is the red dot in the painting. This symbolizes the little striking things in the big picture.",
+            "price": 23.95,
+            "category": 3,
+            "image": "red_dot.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "AB123470",
+            "name": "Man With Beard",
+            "description": "This photo is taken by Picopraphy. The street art gives a cheerful appearance. The man in the photo has colored hair and a colored beard. This portrays a happy feeling when you look at it. The man is also wearing sunglasses, which adds some sunshine to the image.",
+            "price": 17.95,
+            "category": 4,
+            "image": "man_with_beard.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/man_with_beard.jpg",
+            "in_stock": "True"
+        }
+    }
+]
