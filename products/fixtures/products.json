@@ -3,13 +3,13 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "AB123456",
-            "name": "Girl in desert",
-            "description": "The girl in the desert was photographed by Pieter Stelling and the picture was taken in Namibia. It relfects the tranquility of the desert and at the same time the inner peace of the man. The girl is meditating with her toughts blowing with the wind.",
-            "price": 19.95,
+            "sku": "pp123456",
+            "name": "Rubble",
+            "description": "Photo taken of old world war 2 church ruin in france 1942.",
+            "price": 39.99,
             "category": 1,
-            "image": "girl_in_desert.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/girl_in_desert.jpg",
+            "image": "Abstract_image_0.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_0.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=945d1af7b2b7c834e50092aaee6b58a9defa5eda2b2fea379b191d40ffb2e389a3e0d3e53364a3cd6c1ba069035391ba2e2c7ab3912a24f84da34f8dac993abdddc83d33a7a0f2397cf35be317087dc9f5abce166f77089ae8c43ab133b1dc1db5a684b370d0506eeb586ec6cfe46ebc44840eb63d908c853f52838ddcd4499b55fe314d6e97810de7be4ea5fa860b515e989aab14485d25e22bba18d6bd98cedba52b800dd05849c96931ad77029a50a030d722f0651dd3bf4c382e61f940fa9b2746c031e3c1d9c3b7c2f98fa8298a8379005199df28f64ea40ae4f2292017592210a54766b6d68f4eb31cd1c35287eaa6475166a0ed09bb39cec99088ba8f",
             "in_stock": "True"
         }
     },
@@ -17,27 +17,27 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
-            "sku": "AB123457",
+            "sku": "pp123457",
             "name": "Abstract no. 092",
-            "description": "The print is painted by Cottonbro. Abstract shapes and lines on a blue background. This print adds a slightly chaos and and the same time peaceful feeling to your interior, without being overpowering. The blue tones make the print perfect for the living room where the print is a remarkable item.",
-            "price": 23.95,
-            "category": 3,
-            "image": "abstract092.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/abstract092.jpg",
-            "in_stock": "False"
+            "description": "Abstract street art Pohotgraphed and avaible for print.",
+            "price": 39.99,
+            "category": 1,
+            "image": "Abstract_image_1.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_1.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=1c88df7bfce0f190dfd8cdb5997e612b0fb11ceddadbf7d9b7f179c355e7a2cf07f2de7b9bef48ece1cb0e26d912167d1a61bba44475f2b7ebf7935ece76a606342e653747e7c8a3b259b6c1c95e44616dd3c650e3714ac4b3bd0a0a3756c15f7599a9dcbacaa1f27509bebf08f541a11e49250a2032dc103bbbe167754b642db28389a78f2a99facfa3254d740d8f8e7a276931cefefc2634da30559d9d763e710b3a220c9cbbf617d45647e6c273c2ae451adf0cae9990d54c77c45b225a40f922b357322f54bd3f69b925cbff6e58325ec04bfd2995a9ab79f3c16f44b0ec6678332da863714b1bcb06f24b0f4f47480eb686f8436f0d2262df6f922c2e81",
+            "in_stock": "True"
         }
     },
     {
         "pk": 3,
         "model": "products.product",
         "fields": {
-            "sku": "AB123458",
-            "name": "On Top Of The Mountain",
-            "description": "On top of the mountain was photographed by Tomas Malik and the picture was taken in Canada. The print stands for tranquility and clean nature. It is good to reflect on the beauty of nature and all its wonders.",
-            "price": 17.95,
-            "category": 2,
-            "image": "on_top_of_the_mountain.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/on_top_of_the_mountain.jpg",
+            "sku": "pp123458",
+            "name": "Isolated",
+            "description": "Canvas painting of dark, gloomy woods.",
+            "price": 29.99,
+            "category": 3,
+            "image": "Abstract_image_2.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_10.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=5e00adcf45c9126376af35f402ea8485c6cd776432d4a034b94a85cbc955fa2040ea3d47de85290c7e8f862fe7d28354939505baafbc7a15eef80179c9c46edbdc7e46dfa3509c2caba36e9711cdf494f74d9f66a4a03e7ea989597ac2e3f411b53ae6d538a5db3816eb168cc662b2684da366cb4be5cbbd3ddc31013bdd6b8f7f19268700c2a05775e6d4c4cedbeb7fc7ff93a5c2d6ea8ea60291bd44ca9a8d07c58e4c20564f3e181cd6025c05dcff52f20f3fbda78d8c774c11173bed90accbf6e3a4ef6bf1de32acae63fb786bf71993cd1b193dfcfce485cf3c3cd163efc8aeededd254aefcf46ed40f80b5cc67ae2097c9d3b7f64f9ef73c20ee841953",
             "in_stock": "True"
         }
     },
@@ -45,13 +45,13 @@
         "pk": 4,
         "model": "products.product",
         "fields": {
-            "sku": "AB123459",
-            "name": "Antelope",
-            "description": "This picture of the Antelope Canyon in America is taken by Paul Ijsendoorn. The Lower Antelope Canyon  is an impressive environment full of special structures, rocks in beautiful colors and narrow passages await. The canyon are narrow gorges that have been carved out by water or mud as a result of which it has taken on special forms.",
-            "price": 19.95,
-            "category": 2,
-            "image": "antelope-canyon.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/antelope-canyon.jpg",
+            "sku": "pp123459",
+            "name": "Hands",
+            "description": "Banksy used his feet to capture this picture of his lovers feet.",
+            "price": 9999.99,
+            "category": 1,
+            "image": "Abstract_image_3.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_10.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=5e00adcf45c9126376af35f402ea8485c6cd776432d4a034b94a85cbc955fa2040ea3d47de85290c7e8f862fe7d28354939505baafbc7a15eef80179c9c46edbdc7e46dfa3509c2caba36e9711cdf494f74d9f66a4a03e7ea989597ac2e3f411b53ae6d538a5db3816eb168cc662b2684da366cb4be5cbbd3ddc31013bdd6b8f7f19268700c2a05775e6d4c4cedbeb7fc7ff93a5c2d6ea8ea60291bd44ca9a8d07c58e4c20564f3e181cd6025c05dcff52f20f3fbda78d8c774c11173bed90accbf6e3a4ef6bf1de32acae63fb786bf71993cd1b193dfcfce485cf3c3cd163efc8aeededd254aefcf46ed40f80b5cc67ae2097c9d3b7f64f9ef73c20ee841953",
             "in_stock": "True"
         }
     },
@@ -59,13 +59,13 @@
         "pk": 5,
         "model": "products.product",
         "fields": {
-            "sku": "AB123460",
-            "name": "Abstract No. 093",
-            "description": "This print is made by Rok Rie. The abstract print is a reflection of natural stone that is powerful due to water. The colorus are a combination of light and warm with a hint of dark tones. The surfaces look like liquid that flows over the paint. It gives a luxurious and modern look that matches well with a modern home.",
-            "price": 23.95,
-            "category": 3,
-            "image": "marmer.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/marmer.jpg",
+            "sku": "pp123460",
+            "name": "Apple?",
+            "description": "foam carved and shaped on a bit of wood, its not great.",
+            "price": 1.99,
+            "category": 1,
+            "image": "Abstract_image_4.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_10.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=5e00adcf45c9126376af35f402ea8485c6cd776432d4a034b94a85cbc955fa2040ea3d47de85290c7e8f862fe7d28354939505baafbc7a15eef80179c9c46edbdc7e46dfa3509c2caba36e9711cdf494f74d9f66a4a03e7ea989597ac2e3f411b53ae6d538a5db3816eb168cc662b2684da366cb4be5cbbd3ddc31013bdd6b8f7f19268700c2a05775e6d4c4cedbeb7fc7ff93a5c2d6ea8ea60291bd44ca9a8d07c58e4c20564f3e181cd6025c05dcff52f20f3fbda78d8c774c11173bed90accbf6e3a4ef6bf1de32acae63fb786bf71993cd1b193dfcfce485cf3c3cd163efc8aeededd254aefcf46ed40f80b5cc67ae2097c9d3b7f64f9ef73c20ee841953",
             "in_stock": "True"
         }
     },
@@ -73,13 +73,13 @@
         "pk": 6,
         "model": "products.product",
         "fields": {
-            "sku": "AB123461",
-            "name": "Man In Colour",
-            "description": "The man in colour is photographed by Anderson Guerra. The picture is taken in Colombia on a little square in the the town centre. The photo radiates a lot of joy with the many colors used. This also symbolizes diversity at the same time. The is a piece of culture that the woman radiates (also with her eyes).",
-            "price": 17.95,
-            "category": 4,
-            "image": "man_in_colour.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/man_in_colour.jpg",
+            "sku": "pp123461",
+            "name": "need repairs",
+            "description": "i took a picture of a cracked window, turned it into a black&white picture, now i am an artist.",
+            "price": 99.99,
+            "category": 1,
+            "image": "Abstract_image_5.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_1023.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=9d524f324e46f6e18f4c29d8ab76c3ea03a0cc1bf7d08e58db224268431cccce7f0b1c7a1e602d15f089f9b5ce65e58df72d1a3423c5ede383955ebd3b5b117f5b2b5d06489e1cf65c3582d6e1fa9d38f333a3de69253b0f6a37e0ab075576896e30c8c5509e25ab0760a6995a00df3400a37d3f171149555a3c952bef8a8e16b86014378a01e655f125f2fe9bf716340981dfed0cee783552126aeeac0eefb026bfdd6f890d009b55ed978eca399b76a18568f460dbf8841e17e51c1d6309d1916ecb747df3520db79342545adeef07517df8046af9d8b6627ba6320eec7976fe38f19e14357e70b7781d6d51e1fa7012a8dff79c62fe6439ddb5e1742a0139",
             "in_stock": "True"
         }
     },
@@ -87,13 +87,13 @@
         "pk": 7,
         "model": "products.product",
         "fields": {
-            "sku": "AB123462",
-            "name": "Say Hi",
-            "description": "This photo is taken by John Selmik. The woman with the sunglasses exudes a lot of passion in different ways. Partly revels partly penetrating the girl looks at you. It is intimidating and at the same time sensitive and warm. It is a striking item that draws attention in the living room.",
-            "price": 17.95,
+            "sku": "pp123462",
+            "name": "Bye",
+            "description": "Simple print of handprint using wet cement.",
+            "price": 20.99,
             "category": 1,
-            "image": "sunglasses.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/sunglasses.jpg",
+            "image": "Abstract_image_6.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_10.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=5e00adcf45c9126376af35f402ea8485c6cd776432d4a034b94a85cbc955fa2040ea3d47de85290c7e8f862fe7d28354939505baafbc7a15eef80179c9c46edbdc7e46dfa3509c2caba36e9711cdf494f74d9f66a4a03e7ea989597ac2e3f411b53ae6d538a5db3816eb168cc662b2684da366cb4be5cbbd3ddc31013bdd6b8f7f19268700c2a05775e6d4c4cedbeb7fc7ff93a5c2d6ea8ea60291bd44ca9a8d07c58e4c20564f3e181cd6025c05dcff52f20f3fbda78d8c774c11173bed90accbf6e3a4ef6bf1de32acae63fb786bf71993cd1b193dfcfce485cf3c3cd163efc8aeededd254aefcf46ed40f80b5cc67ae2097c9d3b7f64f9ef73c20ee841953",
             "in_stock": "True"
         }
     },
@@ -101,13 +101,13 @@
         "pk": 8,
         "model": "products.product",
         "fields": {
-            "sku": "AB123463",
-            "name": "Lips",
-            "description": "Lips is photographed by Arantxa Treva in Colombia. it is an expression of the hippie era where flower power is central. It is a female figure who has a voice. And she lets you hear this.",
-            "price": 17.95,
-            "category": 4,
-            "image": "lips.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/lips.jpg",
+            "sku": "pp123463",
+            "name": "Rot",
+            "description": "a look into corruption and the affect on society.",
+            "price": 39.99,
+            "category": 1,
+            "image": "Abstract_image_7.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_10.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=5e00adcf45c9126376af35f402ea8485c6cd776432d4a034b94a85cbc955fa2040ea3d47de85290c7e8f862fe7d28354939505baafbc7a15eef80179c9c46edbdc7e46dfa3509c2caba36e9711cdf494f74d9f66a4a03e7ea989597ac2e3f411b53ae6d538a5db3816eb168cc662b2684da366cb4be5cbbd3ddc31013bdd6b8f7f19268700c2a05775e6d4c4cedbeb7fc7ff93a5c2d6ea8ea60291bd44ca9a8d07c58e4c20564f3e181cd6025c05dcff52f20f3fbda78d8c774c11173bed90accbf6e3a4ef6bf1de32acae63fb786bf71993cd1b193dfcfce485cf3c3cd163efc8aeededd254aefcf46ed40f80b5cc67ae2097c9d3b7f64f9ef73c20ee841953",
             "in_stock": "True"
         }
     },
@@ -115,13 +115,13 @@
         "pk": 9,
         "model": "products.product",
         "fields": {
-            "sku": "AB123464",
-            "name": "Trees And Bird",
-            "description": "This photo is taken by Efdal in Canada. The photo was taken in a natural park close to Montreal. It is a soothing semi still life photo. The trees form a rough horizontal line. The sun shines naturally on the trees which gives a magical effect. The birds in the middle complete the photo and give it dynamism.",
-            "price": 19.95,
-            "category": 2,
-            "image": "trees_and_bird.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/trees_and_bird.jpg",
+            "sku": "pp123464",
+            "name": "Street art 101",
+            "description": "Unknown.",
+            "price": 19.99,
+            "category": 1,
+            "image": "Abstract_image_8.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_10.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=5e00adcf45c9126376af35f402ea8485c6cd776432d4a034b94a85cbc955fa2040ea3d47de85290c7e8f862fe7d28354939505baafbc7a15eef80179c9c46edbdc7e46dfa3509c2caba36e9711cdf494f74d9f66a4a03e7ea989597ac2e3f411b53ae6d538a5db3816eb168cc662b2684da366cb4be5cbbd3ddc31013bdd6b8f7f19268700c2a05775e6d4c4cedbeb7fc7ff93a5c2d6ea8ea60291bd44ca9a8d07c58e4c20564f3e181cd6025c05dcff52f20f3fbda78d8c774c11173bed90accbf6e3a4ef6bf1de32acae63fb786bf71993cd1b193dfcfce485cf3c3cd163efc8aeededd254aefcf46ed40f80b5cc67ae2097c9d3b7f64f9ef73c20ee841953",
             "in_stock": "True"
         }
     },
@@ -129,12 +129,12 @@
         "pk": 10,
         "model": "products.product",
         "fields": {
-            "sku": "AB123465",
-            "name": "White Lines",
-            "description": "White lines is made by Steve Johnson. The white lines form a calm and at the same time dynamic image. The lines are coarse and rough, which gives the painting character. Because the painting is completely white, it gives a calm appearance. The painting fits well in a modern interior.",
+            "sku": "pp123465",
+            "name": "Stem",
+            "description": "",
             "price": 23.95,
             "category": 3,
-            "image": "white.jpg",
+            "image": "Abstract_image_9.jpg",
             "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/white.jpg",
             "in_stock": "True"
         }
@@ -143,12 +143,12 @@
         "pk": 11,
         "model": "products.product",
         "fields": {
-            "sku": "AB123466",
-            "name": "Tunnel Vision",
-            "description": "Tunnel Vision is photographed by Will Mu. The photo was taken in the Netherlands near Amsterdam. The tunnel is painted inside in black and white, which gives it an industrial look. The black shapes resemble Kieth Haring figures, which also makes the tunnel playful.",
-            "price": 19.95,
-            "category": 4,
-            "image": "tunnel.jpg",
+            "sku": "pp123466",
+            "name": "Yggdrasil",
+            "description": "Print named after the world tree of norse mythology.",
+            "price": 19.99,
+            "category": 1,
+            "image": "Abstract_image_10.jpg",
             "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/tunnel.jpg",
             "in_stock": "True"
         }
@@ -157,12 +157,12 @@
         "pk": 12,
         "model": "products.product",
         "fields": {
-            "sku": "AB123467",
-            "name": "River Through The Mountain",
-            "description": "This photo is taken by Pixabay. The photo was taken in a nature reserve in Eastern. The river flows with the mountains. The water in the river comes from the rain that comes from the mountain. The aerial photo reaches far so that a large piece of landscape can be seen.",
+            "sku": "pp123467",
+            "name": "caverns",
+            "description": "Some eerie looking Caverns.",
             "price": 23.95,
             "category": 2,
-            "image": "rivers.jpg",
+            "image": "Abstract_image_11.jpg",
             "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/rivers.jpg",
             "in_stock": "True"
         }
@@ -171,13 +171,13 @@
         "pk": 13,
         "model": "products.product",
         "fields": {
-            "sku": "AB123468",
-            "name": "Big Building",
-            "description": "This photo is taken by Philipps Birmes. The photo was taken in New York. The photo was taken from below, making the building float in the air. The photo has a sleek look that fits well with a sleek interior.",
-            "price": 17.95,
-            "category": 1,
-            "image": "building.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/building.jpg",
+            "sku": "pp123468",
+            "name": "China piece",
+            "description": "",
+            "price": 39.99,
+            "category": 2,
+            "image": "Abstract_image_12.jpg",
+            "image_url": "https://storage.googleapis.com/kagglesdsdata/datasets/742030/3108204/Abstract_gallery/Abstract_gallery/Abstract_image_1002.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=databundle-worker-v2%40kaggle-161607.iam.gserviceaccount.com%2F20220308%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220308T020114Z&X-Goog-Expires=345599&X-Goog-SignedHeaders=host&X-Goog-Signature=9d4729cac6fb6322cbaa9191d8047a90ec7f0bc0f865d050afbd5148172b6f19bfb1fb15923d2b291c254c798ba0cd8458264eef13a99a919e47644e83df168d460a4a8cf9549198c8b07eef0919c42b430af40800ae0cd2cbcc3b27d8acdc0f9340b6422061eeb4f3c7196b28c9268559431e167e64fd01f2efadf8d84e93ece353f70b45fd4ed6cad2e21e31b7fd9e2e005066122f0a957dc46ac80d9e15fe7b3766d0e25997ac2ae6a1f770183294ef251a79dc2f77c1f69fdb7a4e0862989ed46a564dc56ce445638101eed8e6b4dcf76ba432623c05c49dbf8389a347df44e91c70a7b3c0748737393784b6f662f8064a1085a1129c6b1e1cac166ee334",
             "in_stock": "True"
         }
     },
@@ -185,12 +185,12 @@
         "pk": 14,
         "model": "products.product",
         "fields": {
-            "sku": "AB123469",
-            "name": "Red Dot",
-            "description": "Red dot is made by Steven Johnson. The painting roughly consists of the two primary colors blue and red. This gives a great contrast, so that both colors are well present. What is striking is the red dot in the painting. This symbolizes the little striking things in the big picture.",
+            "sku": "pp123469",
+            "name": "Hello",
+            "description": "",
             "price": 23.95,
-            "category": 3,
-            "image": "red_dot.jpg",
+            "category": 2,
+            "image": "Abstract_image_13.jpg",
             "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
             "in_stock": "True"
         }
@@ -199,13 +199,97 @@
         "pk": 14,
         "model": "products.product",
         "fields": {
-            "sku": "AB123470",
-            "name": "Man With Beard",
-            "description": "This photo is taken by Picopraphy. The street art gives a cheerful appearance. The man in the photo has colored hair and a colored beard. This portrays a happy feeling when you look at it. The man is also wearing sunglasses, which adds some sunshine to the image.",
-            "price": 17.95,
+            "sku": "pp123470",
+            "name": "Zinamo",
+            "description": "Abstract piece of west african and south pacific influence.",
+            "price": 17.99,
             "category": 4,
-            "image": "man_with_beard.jpg",
-            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/man_with_beard.jpg",
+            "image": "Abstract_image_14.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp123469",
+            "name": "Nurture",
+            "description": "some believe you can see a mother caring for her child,the artist remains silent ont he subject",
+            "price": 49.99,
+            "category": 2,
+            "image": "Abstract_image_15.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp123469",
+            "name": "Boxes",
+            "description": "",
+            "price": 23.95,
+            "category": 2,
+            "image": "Abstract_image_16.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp123469",
+            "name": "slash",
+            "description": "",
+            "price": 23.95,
+            "category": 2,
+            "image": "Abstract_image_17.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp123469",
+            "name": "David Bowie",
+            "description": "",
+            "price": 23.95,
+            "category": 2,
+            "image": "Abstract_image_18.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp123469",
+            "name": "Last Caress",
+            "description": "",
+            "price": 23.95,
+            "category": 2,
+            "image": "Abstract_image_19.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
+            "in_stock": "True"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp123469",
+            "name": "melancholy hill",
+            "description": "",
+            "price": 23.95,
+            "category": 2,
+            "image": "Abstract_image_20.jpg",
+            "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
             "in_stock": "True"
         }
     }
