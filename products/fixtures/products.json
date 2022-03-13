@@ -18,7 +18,7 @@
         "model": "products.product",
         "fields": {
             "sku": "pp123457",
-            "name": "Abstract no. 092",
+            "name": "Abstract no. 001",
             "description": "Abstract street art Pohotgraphed and avaible for print.",
             "price": 39.99,
             "category": 1,
@@ -196,21 +196,21 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 15,
         "model": "products.product",
         "fields": {
             "sku": "pp123470",
             "name": "Zinamo",
             "description": "Abstract piece of west african and south pacific influence.",
             "price": 17.99,
-            "category": 4,
+            "category": 2,
             "image": "Abstract_image_14.jpg",
             "image_url": "https://prnts.s3.eu-west-3.amazonaws.com/media/red_dot.jpg",
             "in_stock": "True"
         }
     },
     {
-        "pk": 14,
+        "pk": 16,
         "model": "products.product",
         "fields": {
             "sku": "pp123469",
@@ -224,7 +224,7 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 17,
         "model": "products.product",
         "fields": {
             "sku": "pp123469",
@@ -238,7 +238,7 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 18,
         "model": "products.product",
         "fields": {
             "sku": "pp123469",
@@ -252,7 +252,7 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 19,
         "model": "products.product",
         "fields": {
             "sku": "pp123469",
@@ -266,7 +266,7 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 20,
         "model": "products.product",
         "fields": {
             "sku": "pp123469",
@@ -280,7 +280,7 @@
         }
     },
     {
-        "pk": 14,
+        "pk": 21,
         "model": "products.product",
         "fields": {
             "sku": "pp123469",
