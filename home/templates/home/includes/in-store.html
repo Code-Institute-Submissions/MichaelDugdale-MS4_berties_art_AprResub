@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col pb-2">
+        <h2 class="text-uppercase text-center text-black padding-top">In store</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 col-lg-12 px-5">
+        <div class="row">
+            {% for product in products %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <div class="card border-0">
+                        {% if product.image %}
+                            <!-- Image of product -->
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
+                            </a>
+                        {% else %}
+                            <!-- default error image -->
+                            <a href="{% url 'product_detail' product.id %}">
+                                <img src="{{ MEDIA_URL }}not_available.jpg" class="card-img-top bag-img" alt="no image available">
+                            </a>
+                        {% endif %}
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div> 
+    <!-- Button to all products -->
+    <div class="col-12 text-center pb-5 pt-1">
+        <div class="btn btn-black">
+            <a class="text-white uppercase text-decoration-none" href="{% url 'products' %}">View all products</a>
+        </div>
+    </div> 
+</div>
