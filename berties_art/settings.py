@@ -22,7 +22,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-c#%h(@f&!i-celamfz$g%lk-e6ho6)0fv#ur@km!6o-gknedj!'
+SECRET_KEY = 'django-insecure-c#%h(@f&!i-celamfz$g%lk-e6ho6)'
+'0fv#ur@km!6o-gknedj!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -185,4 +186,4 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
-STRIPE_WH_KEY = os.getenv('STRIPE_WH_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
