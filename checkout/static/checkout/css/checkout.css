@@ -76,7 +76,7 @@ select option[value=""] {
 }
 
 .form-control:focus {
-    border-color: #CDBB8D;
+    border-color: #f38647;
 }
 
 #loading-overlay {
@@ -86,7 +86,7 @@ select option[value=""] {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #CDBB8D;
+    background: #45c9eb;
     opacity: 0.95;
     z-index: 9999;
 }
