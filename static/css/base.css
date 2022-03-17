@@ -7,6 +7,19 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+/*------------------------------------- background colours */ 
+.bg-black {
+    background-color: #000 !important;
+}
+
+.bg-grey {
+    background-color: #1A1A1A;
+}
+
+.bg-brown {
+    background-color: #CDBB8D;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -37,6 +50,12 @@ body {
 
 .padding-top {
     padding-top: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .btn-outline-black {

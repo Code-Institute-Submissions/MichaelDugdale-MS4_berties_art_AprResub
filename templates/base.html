@@ -147,11 +147,14 @@
   </div>
 {% endif %}
 
-  {% block page_header %}
-  {% endblock %}
+  <main class="container-fluid">
+    {% block content %}
+    {% endblock %}
+</main>
 
-  {% block content %}
-  {% endblock %}
+<footer>
+    {% include 'includes/footer.html'%}
+</footer>
 
   {% block postloadjs %}
   <script type="text/javascript">

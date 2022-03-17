@@ -1,0 +1,79 @@
+<div class="container-fluid">
+    <div class="row bg-grey">
+        <!-- PRNTS text mobile -->
+        <div class="col-6 py-4 ps-4 d-block d-lg-none">
+            <h5 class="text-uppercase">Bert's Art.</h5>
+            <p class="">
+
+            </p>
+        </div>
+        <!-- PRNTS text desktop -->
+        <div class="col-6 py-4 px-5 d-none d-lg-block">
+            <h5 class="text-uppercase">Bert's Art</h5>
+            <p class="">
+
+            </p>
+        </div>
+        <!-- Shopping -->
+        <div class="col py-4 d-none d-lg-flex">
+            <ul class="list-unstyled">
+                <li class="text-uppercase">Shopping</li>
+                <li>
+                    <a class=" text-decoration-none" href="{% url 'products' %}">All Prints</a>
+                </li>
+                <li>
+                    <a class=" text-decoration-none" href="{% url 'products' %}?category=black_and_white">Black and
+                        White</a>
+                </li>
+                <li>
+                    <a class=" text-decoration-none" href="{% url 'products' %}?category=abstract">Abstract</a>
+                </li>
+                <li>
+                    <a class=" text-decoration-none" href="{% url 'products' %}?category=canvas">Canvas</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- Customer Care -->
+        <div class="col py-4">
+            <ul class="list-unstyled">
+                <li class="text-uppercase ">Customer care</li>
+                <li>
+                    <a class=" text-decoration-none" href="{% url 'contact' %}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row bg-black">
+        <!-- Copyright -->
+        <div class="col-8">
+            <p class="text-uppercase text-white my-auto py-1">Bert's Art</p>
+        </div>
+        <!-- Social links -->
+        <div class="col-4 text-end">
+            <ul class="list-inline list-unstyled my-auto">
+                <li class="list-inline-item">
+                    <a class="nav-link text-white" href="https://www.facebook.com/" target="_blank">
+                        <div class="icons">
+                            <i class="fab fa-facebook-square fa-lg"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link text-white" href="https://www.instagram.com/" target="_blank">
+                        <div class="icons">
+                            <i class="fab fa-instagram-square fa-lg"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="nav-link text-white" href="https://www.pinterest.ca/" target="_blank">
+                        <div class="icons">
+                            <i class="fab fa-pinterest-square fa-lg"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
