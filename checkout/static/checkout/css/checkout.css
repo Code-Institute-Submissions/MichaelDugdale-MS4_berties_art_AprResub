@@ -59,6 +59,10 @@
 .stripe-style-input::placeholder {
     color: #000;
 }
+select,
+select option {
+    color: black;
+}
 
 select:invalid,
 select option[value=""] {
