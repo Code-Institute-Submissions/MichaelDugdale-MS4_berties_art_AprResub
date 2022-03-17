@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_title %}| CONTACT US {% endblock %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col pt-4 pb-5">
+        <h2 class="text-black uppercase text-center">Contact</h2>
+        <h6 class="text-center px-5">Feel free to contact us through the form or by calling or emailing us. Whether you
+            just need us to answer some questions or you would like to comission somework for yourself we are happy to
+            help!. </h6>
+    </div>
+</div>
+<div class="container">
+    <div class="row pb-3">
+        <div class="col-12 col-lg-6 pb-4">
+            <h5 class="text-uppercase">Berts Art</h5>
+            <p><i class="fas fa-phone-alt"></i> +45645645645</p>
+            <p><i class="far fa-envelope"></i> Berts-art@test.com</p>
+        </div>
+        <div class="col-12 col-lg-6">
+            <form method="POST">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <button type="submit" class="btn btn-black rounded-0">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
