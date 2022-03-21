@@ -3,22 +3,13 @@ html {
 }
 
 body {
+    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Oswald', sans-serif;
 }
 
 /*------------------------------------- background colours */ 
-.bg-black {
-    background-color: #000 !important;
-}
 
-.bg-grey {
-    background-color: #1A1A1A;
-}
-
-.bg-brown {
-    background-color: #CDBB8D;
-}
 
 /* from Bulma */
 .icon {
@@ -52,10 +43,45 @@ body {
     padding-top: 50px;
 }
 
+/*------------------------------------- footer */ 
+
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding-top: 50px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4 ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom {
+    background:#000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .btn-outline-black {
