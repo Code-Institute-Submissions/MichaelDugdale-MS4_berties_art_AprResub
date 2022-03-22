@@ -28,6 +28,11 @@ body {
     width: fit-content;
 }
 
+.color-hover a:hover {
+    color: rgb(169, 197, 13);
+}
+
+
 .shop-now-button {
     background: black;
     color: white;
@@ -74,7 +79,7 @@ footer {
 }
 
 .socials a:hover i{
-    color: rgb(11, 14, 155);
+    color: rgb(192, 122, 16);
 }
 
 .footer-bottom {

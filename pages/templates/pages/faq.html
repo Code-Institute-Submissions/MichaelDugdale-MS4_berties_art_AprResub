@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_title %}| FAQ {% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col pt-4 pb-2">
+            <h2 class="text-black text-uppercase text-center">FAQ</h2>
+        </div>
+    </div>
+    <div class="container pb-5">
+        <div class="row">
+            <h5 class="text-black text-uppercase py-1">Delivery</h5>
+            <div class="accordion" id="accordiondelivery">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How long does the delivery take?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordiondelivery">
+                        <div class="accordion-body">
+                            <p>
+                                You will receive confimation e-mail immediately after placing your order. Orders are shipping within 5
+                                business days.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How can i track my order?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordiondelivery">
+                        <div class="accordion-body">
+                            <p>
+                                Once your package has been shipped, you will receive an email from us containing a Track and Trace.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Where is my order?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordiondelivery">
+                        <div class="accordion-body">
+                            <p>
+                                Once your order has been dispatched you will receive a shipping confirmation. In
+                                this you will find a link to the delivery company's webpage where you can track your
+                                order. Remember that our delivery times refer to business days, so do not include
+                                weekends.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            I haven't received my order confirmation!
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordiondelivery">
+                        <div class="accordion-body">
+                            <p>
+                                You will automatically receive your order confirmation by e-mail within 24 hours. If
+                                you are missing an order confirmation, please check your spam folder or other folders
+                                with special offers. Some mailbox providers (including Gmail) have enabled filters that
+                                move newsletters into dedicated folders, so we recommend checking those and other filters
+                                you might have enabled. If you have not received your order confirmation within this time
+                                frame you are more than welcome to contact us for further help!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Can I edit/cancel my order after I placed it?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordiondelivery">
+                        <div class="accordion-body">
+                            <p>
+                                Sadly, no. Once your order is placed and imported to our system, we have no ability
+                                to edit it or make any changes for you.
+                                We are really quick at processing your order and are therefore unable to cancel it before
+                                shipping. However, you are always more than welcome to return your order to us for free if
+                                you do not wish to keep it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <h5 class="text-black text-uppercase py-1">Returns</h5>
+            <div class="accordion" id="accordionreturn">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            What is your return policy?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#accordionreturn">
+                        <div class="accordion-body">
+                            <p>
+                                You can return all items within 90 days. The item contains no traces of use or 
+                                other stains. <a class="text-black" href="{% url 'return_policy' %}">Check out our returns page for more info.</a>    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed uppercase" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            What should i do if I have received a damaged item?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#accordionreturn">
+                        <div class="accordion-body">
+                            <p>
+                                Unfortunately, it is possible that your order will be damaged during shipping. As a 
+                                customer, you cannot do anything about this. In that case, we ask you to contact us directly. 
+                                It is also useful to send photos of the complaint. Our Customer Care will process your message 
+                                as soon as possible and will work with you to find the best solution.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 pb-3">
+            <h5 class="text-black text-uppercase py-1">Other</h5>
+            <p>Other questions? <a class="text-black" href="{% url 'contact' %}">Contact us</a></p>
+        </div>
+    </div>
+{% endblock %}
