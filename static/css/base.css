@@ -69,12 +69,12 @@ footer {
 }
 
 .socials a i {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     transition: color .4 ease;
 }
 
 .socials a:hover i{
-    color: aqua;
+    color: rgb(11, 14, 155);
 }
 
 .footer-bottom {
@@ -82,7 +82,35 @@ footer {
     width: 100vw;
     padding: 20px 0;
     text-align: center;
+    max-height: fit-content;
 }
+
+.footer-content {
+    max-height: fit-content;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.bg-black {
+    background: #000 !important
+}
+
+.bg-grey {
+    background: grey !important
+}
+
 
 .btn-outline-black {
     background: white;
@@ -98,18 +126,6 @@ footer {
 .btn-black:focus {
     background: #222;
     color: white;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #000 !important
 }
 
 img {

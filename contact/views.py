@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 
+
 from .forms import ContactForm
 
 
@@ -12,8 +13,8 @@ def contact(request):
         if form.is_valid():
             form.save()
             messages.info(
-                request, 'Your message is send. '
-                + 'We will reply within 48 hours!')
+                request, 'we have recieved your message!. '
+                + 'We will reply as soon as possible!')
         else:
             messages.error(request, 'Please try again.')
         return redirect(reverse('contact'))

@@ -1,40 +1,51 @@
 <div class="container-fluid">
     <div class="row bg-grey">
-
         <!-- Shopping -->
-        <div class="col py-4 d-none d-lg-flex">
+        <div class="col-4 d-none d-lg-flex">
             <ul class="list-unstyled">
-                <li class="text-uppercase">Shopping</li>
+                <li class="text-uppercase text-white">Shopping</li>
                 <li>
-                    <a class=" text-decoration-none" href="{% url 'products' %}">All Prints</a>
+                    <a class=" text-decoration-none text-white" href="{% url 'products' %}">All Prints</a>
                 </li>
                 <li>
-                    <a class=" text-decoration-none" href="{% url 'products' %}?category=black_and_white">Black and
+                    <a class=" text-decoration-none text-white" href="{% url 'products' %}?category=black_and_white">Black and
                         White</a>
                 </li>
                 <li>
-                    <a class=" text-decoration-none" href="{% url 'products' %}?category=abstract">Abstract</a>
+                    <a class=" text-decoration-none text-white" href="{% url 'products' %}?category=abstract">Abstract</a>
                 </li>
                 <li>
-                    <a class=" text-decoration-none" href="{% url 'products' %}?category=canvas">Canvas</a>
+                    <a class=" text-decoration-none text-white" href="{% url 'products' %}?category=canvas">Canvas</a>
                 </li>
             </ul>
 
         </div>
+        <!-- newsletter -->
+        
         <!-- Customer Care -->
-        <div class="col py-4">
+        <div class="col-lg-4 col-md-6">
             <ul class="list-unstyled">
-                <li class="text-uppercase ">Customer care</li>
+                <li class="text-uppercase text-white">Customer care</li>
                 <li>
-                    <a class=" text-decoration-none" href="{% url 'contact' %}">Contact</a>
+                    <a class=" text-decoration-none text-white" href="{% url 'contact' %}">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <ul class="list-unstyled">
+                <li class="text-uppercase text-white">Subscribe to our newsletter!</li>
+                <li>
+                    <a class=" text-decoration-none text-white" href="{% url 'newsletter' %}">Subscribe</a>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="row bg-black">
+
+    <div class="row footer-content bg-black">
         <!-- Social links -->
-        <div class="col-4 text-end">
+        <div class="col-12 text-end py-0">
             <ul class="socials">
+                <p class="text-white pt-3">Follow us!</p>
                 <li>
                     <a class="nav-link text-white" href="https://www.facebook.com/" target="_blank">
                         <i class="fab fa-facebook-square fa-lg"></i>
@@ -53,7 +64,7 @@
             </ul>
         </div>
     </div>
-    <div class="row bg-black footer-bottom">
+    <div class="row bg-black footer-bottom pt-0 copyright">
         <!-- Copyright -->
         <div class="">
             <p class="text-uppercase text-white">Bert's Art copyright &copy;2022 Milestone 4</p>
