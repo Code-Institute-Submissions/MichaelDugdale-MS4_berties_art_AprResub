@@ -1,80 +1,30 @@
 {% extends "base.html" %}
 {% load static %}
-{% block extra_title %}| COMPANY {% endblock %}
 
 {% block content %}
+<div class="row pt-5">
+    <div class="col pt-5">
+        <h2 class="text-black text-uppercase text-center">About us</h2>
+    </div>
+</div>
+<div class="container pt-5">
     <div class="row">
-        <div class="col pt-4">
-            <h2 class="text-black text-uppercase text-center">The company</h2>
+        <div class="col-12">
+            <h3 class="text-black text-uppercase pb-2 s-r-headers">A littler bit about us at Bert's Art</h3>
+        </div>
+        <div class="col-12">
+            <h4 class="s-r-headers pt-5">Bertie</h4>
+            <p>Hey im bertie, im a britished based artist focusing on abstract canvas work as well as black and white
+                prints. ive been working away at this for the past seven years and hoping to inspire or at least make
+                some money doing it haha!</p>>
+        </div>
+        <div class="col-12">
+            <h4 class="s-r-headers pt-5">The company</h4>
+            <p>At Bert's Art, we are convinced that the digital space is an invaluable tool for bringing what bert has
+                to offer at an affordable price to the art market. a small laid back team to help bert get his art work
+                out there!</p>
         </div>
     </div>
-    <div class="container pt-4">
-        <div class="row text-center pb-5">
-            <h4 class="text-uppercase text-black pb-2">PRNTS. is an Amsterdam based webshop, established in 2021.</h4>
-            <h5>
-                Thinking about life and the modern culture, We realised that art is the 
-                expression of human creative skill and imagination. And this has to be accessable 
-                for everyone.  We don’t believe you need expensive art to express who you are. It’s 
-                about you. You express yourself and your home by your style and the person behind the art. 
-            </h5>
-        </div>
-        <!-- Mobile blocks with picture  -->
-        <div class="d-block d-md-none d-lg-none d-xl-none">
-            <div class="row pb-2">
-                <div class="col-12 text-center py-3">
-                    <img src="https://prnts.s3.eu-west-3.amazonaws.com/media/paint-red-green.jpeg" class="img-fluid about-img" alt="paint with red and green">
-                </div>  
-                <div class="col-12 py-3 text-center">
-                    <h3 class="text-uppercase text-black">Products</h3>
-                    <p class="text-black">
-                        We hold ourselves to high standards when producing our art prints and we 
-                        value the craftsmanship begint our products. Together with our suppliers, we 
-                        continuously strive to imporve the quality and lifetime of our products through 
-                        careful product development.
-                    </p>
-                </div>
-                <div class="col-12 py-3 text-center">
-                    <img src="https://prnts.s3.eu-west-3.amazonaws.com/media/forest.jpg" class="img-fluid about-img" alt="painted girl in blue">
-                </div>
-                <div class="col-12 py-3 text-center">
-                    <h3 class="text-uppercase text-black">Sustainability</h3>
-                    <p class="text-black">
-                        Our products wouldn’t exist without the natural materials 
-                        orgininating from our forests. 
-                        <a class="text-black" href="">Click here to read more.</a> 
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- Desktop blocks with picture -->
-        <div class="d-none d-md-block d-lg-block d-xl-block">
-            <div class="row pt-4 px-5">
-                <div class="col text-end">
-                    <img src="https://prnts.s3.eu-west-3.amazonaws.com/media/paint-red-green.jpeg" class="img-fluid about-img" alt="paint with red and green">      
-                </div>
-                <div class="col company-padding-1"> 
-                    <h3 class="text-uppercase text-black pb-1">The product</h3>
-                    <p class="text-black">
-                        We hold ourselves to high standards when producing our art prints and we 
-                        value the craftsmanship begint our products. Together with our suppliers, we 
-                        continuously strive to imporve the quality and lifetime of our products through 
-                        careful product development.  
-                    </p>
-                </div> 
-            </div>
-            <div class="row pb-5 px-5">
-                <div class="col company-padding-2">
-                    <h3 class="text-uppercase text-black text-end pt-5">Sustainability</h3>
-                    <p class="text-black text-end">
-                        Our products wouldn’t exist without the natural materials 
-                        orgininating from our forests. 
-                        <a class="text-black" href="">Click here to read more.</a>
-                    </p>     
-                </div>
-                <div class="col"> 
-                    <img src="https://prnts.s3.eu-west-3.amazonaws.com/media/forest.jpg" class="img-fluid about-img" alt="painted girl in blue">   
-                </div> 
-            </div>
-        </div>
-    </div>
+</div>
+
 {% endblock %}
