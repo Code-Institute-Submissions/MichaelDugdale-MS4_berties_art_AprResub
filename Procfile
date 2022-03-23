@@ -1,0 +1,1 @@
+web: gunicorn berties_art.wsgi:application
