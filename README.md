@@ -1,11 +1,11 @@
-<h1>RecipeBook</h1>
+<h1>Bert's Art</h1>
 
-[click here for the live site!](https://recipe-book-msp3.herokuapp.com/)
-
-![Portfolio website](readme-files/amIresponsive.png)
+[click here for the live site!](https://bertsart.herokuapp.com/)
 
 
-my goal for this project is to create a full-stack site using HTML, CSS, JavaScript, Python+Flask and MongoDB to create a website that cook enthusiasts can use to share and collect recipes from each other. users will be able to register and create an account where they are look for recipes or even add some of their own using CRUD functionality.
+
+
+my goal for this project is to create a full-stack site using HTML, CSS, JavaScript, Django and python to create a platform that artist can use  to share their work with a larger audience. At bert's Art we offer a large collection of different works you are able to purchase with a click of a button and have it shipped to you without having to leave your home! add more affordable wall art for your home to complete the look you want.
 
 ---
 
@@ -14,8 +14,8 @@ my goal for this project is to create a full-stack site using HTML, CSS, JavaScr
 - <a href="#ux">1. User experience (UX)</a>
   - <a href="#ux-stories">1.1 User stories</a>
   - <a href="#ux-wireframes">1.2 wireframes</a>
-- <a href="#features">2. Features</a>
-  - <a href="#features-existing">2.1 Existing features</a>
+- <a href="#Data-Modelling">2.Data Modelling</a>
+  - <a href="#features-existing">2.1 features</a>
   - <a href="#features-future">2.2 Features left to implement in the future</a>
 - <a href="#technologies">3. Technologies used</a>
 - <a href="#testing">4. Testing</a>
@@ -29,34 +29,43 @@ my goal for this project is to create a full-stack site using HTML, CSS, JavaScr
 ## USER EXPERIENCE
 
 <span id="ux"></span>
-The design for this site is simplistic to not overload the user, with the main focus being on finding the site to be easy to navigate for first time users who want to add recipes or find something new to try for themselves.
+The design for this site is simplistic to not overload the user, with the main focus being on finding the site to be easy to navigate for first time users who want to purchase some new, affordable art for themselves.
 
 ### USER STORIES
 <span id="ux-stories"></span>
 
 #### FIRST TIME VISITORS
 
-* As a first time visitor, i want the site to be easy to understand how to navigate throughout the site.
-* As a first time visitor, i want the content to be easily read and understandable.
-* As a first time visitor, i want images to be clearly visible and enticing.
-* As a first time visitor, i want to be able to visit the website on every device.
-* As a first time visitor, i want to be able to register for an account easily.
-* As a first time visitor, I want to be able to search recipes based on the name and/or ingridents, so I can find what i want easily.
+* As a first time visitor, I want the site to be easy to understand how to navigate throughout the site.
+* As a first time visitor, I want the content to be easily read and understandable.
+* As a first time visitor, I want images to be clearly visible and enticing.
+* As a first time visitor, I want to subscribe to a newsletter, so I can be up to date about the latest news and trends.
+* As a first time visitor, I want to access the social media accounts of the company, so I can follow them and see the latest trends and news.
+* As a first time visitor, I want to access the website from any device, so that I can go to the website on desktop, mobile and tablet.
+* As a first time visitor, I want to be able to contact the owners of the website, so I can easily ask a question.
+* As a first time visitor, I want to be able to search and filter the wall art.
 
 
 #### RETURNING USER 1.1
 
-* As a member, i want to be able to log into my profile.
-* As a member, i want to have all recipes i have added to be easily locatable.
-* As a member, i want to be able to log out.
-* As a member, i want add my own recipes to i can add to the database for other users.
-* As a member, i want be able to edit existing recipes i have added.
-* As a member, i want delete recipes i have added.
+* As a registered user, i want to be able to create/log into my profile.
+* As a registered user, I want to add products to my basket, so I can buy products.
+* As a registered user, I want to modify my order, so I can make last changes before I order the products.
+* As a registered user, I want to be able to pay online securely. 
+* As a registered user, I to receive a confirmation email and get an order number once placed so i know its been successful.
+* As a registered user, I want to see my order history.
+* As a registered user, I want to know the shipping details.
+* As a registered user, I want to know the return policy.
+
+#### Admin  1.12
+
+* As an Admin i want to full control of the site, being able to edit, add delete the collection on site.
+
 
 ## WIREFRAMES 1.2
 <span id="ux-wireframes"></span>
 
-The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following links:
+The wireframes accessible in the following links:
 
 
 ![wireframe1](readme-files/Wireframe1home_page.png)
@@ -65,6 +74,94 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're ac
 ![wireframe4](readme-files/NewWireframe4add_recipe.png)
 
 
+
+### 2 Data Modelling
+<span id="Data-Modelling"></span>
+#### 1. Profile app 
+#### UserProfile model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ User | user | OneToOneField |  User, on_delete=models.CASCADE
+ Full Name | default_full_name | CharField | max_length=50, null=True, blank=True
+ Phone number | default_phone_number | CharField | max_length=20, null=True, blank=True
+ Country | profile_country | CountryField | blank_label='Country', null=True, blank=True
+ Postcode | profile_postcode | CharField | max_length=20, null=True, blank=True
+ Town/City | default_town_or_city | Charfield | max_length=40, null=True, blank=True
+ Street address 1 | default_street_address1 | CharField | max_length=80, null=True, blank=True
+ Street address 2 | default_street_address2 | CharField | max_length=80, null=True, blank=True
+
+#### 2. Products app 
+#### Category model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ name | name | CharField | max_length=254
+ Friendly name | friendly_name | CharField | max_length=254, null=True, blank=True
+
+ #### Product model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ Category| category| ForeignKey | Category, null=True, blank=True, on_delete=models.SET_NULL
+ Sku number | sku | CharField | max_length=40, null=True, blank=True
+ Name| name | CharField | max_length=250
+ Description| description | TextField | null=True, blank=True
+ Price | price | DecimalField | max_digits=5, decimal_places=2, null=False, default=0
+ Image | image | ImageField | null=True, blank=True
+ Image url | image_url | URLField | max_length=1024, null=True, blank=True
+ In stock | in_stock | BooleanField | default=True
+
+#### 3. Checkout app 
+#### Order model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ Order number | order_number | CharField | max_length=32, null=False, editable=False
+ User profile | user_profile | ForeignKey | UserProfile, on_delete=models.SET_NULL, null=True, blank=True, related_name='orders'
+ Full name | full_name | CharField | max_length=50, null=False, blank=False
+ Email| email| EmailField | max_length=254, null=False, blank=False
+ Phone number | phone_number | Charfield | max_length=20, null=True, blank=True
+ Country| country | CountryField | blank_label='Country *', null=False, blank=False
+ Postcode | postcode| CharField | max_length=20, null=True, blank=True
+ Town/City | town_or_city | CharField | max_length=40, null=True, blank=True
+ Street address 1 | street_address1 | CharField | max_length=80, null=True, blank=True
+ Street address 2 | street_address2 | CharField | max_length=80, null=True, blank=True
+ Date | date | DateTimeField | auto_now_add=True
+ Delivery cost | delivery_cost | DecimalField | max_digits=6, decimal_places=2, null=False, default=0
+ Order total | order_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0
+ Grand total | frand_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0
+ Original bag | original_bag | TextField | null=False, blank=False, default=''
+ Stipe pid | stripe_pid | CharField | max_length=254, null=False, blank=False, default=''
+
+ #### OrderLineItem model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ Order  | order | ForeignKey | Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems'
+ Product | product | ForeignKey | Product, null=False, blank=False, on_delete=models.CASCADE
+ Quantity | quantity | IntegerField | null=False, blank=False
+ Lineitem total | lineitem_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False
+
+#### 4. Contact app 
+#### ContactMessage model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ Full name | full_name | CharField | max_length=50
+ Email| email| EmailField | 
+ Message | message| TextField | 
+
+#### 5. Newsletter app 
+#### Subscribe model
+
+| **Name** | **Database Key** | **Field Type** | **Validation** |
+--- | --- | --- | --- 
+ Email | email| EmailField | max_length=255
+ Date | date | DateTimeField | auto_now_add=True
+
+
+ 
 <span id="features"></span>
 
 <h1>2. Features</h1>
