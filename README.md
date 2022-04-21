@@ -319,7 +319,7 @@ manuel tested each one to ensure the website was responsive on the different bro
 - **[Python validator | PEP8](http://pep8online.com/):** No errors found
 ![python validator](readme-files/python-validator.png)
 
-- **[HTML Validator](https://validator.w3.org/):** No major errors to show.
+- **[HTML Validator](https://validator.w3.org/):** a few warnings but no major errors.
 
 - **[CSS Validator](https://jigsaw.w3.org/css-validator/):** No errors found.
 ![CSS Validator](readme-files/cssjigsawvalidator.png)
